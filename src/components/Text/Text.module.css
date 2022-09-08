@@ -1,0 +1,23 @@
+.p {
+  font: 14px;
+  padding: 10px;
+}
+h3 {
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.contentLeft {
+  width: 50%;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.contentRight {
+  width: 38%;
+}

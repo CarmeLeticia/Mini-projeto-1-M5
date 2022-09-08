@@ -1,0 +1,43 @@
+.cardImage {
+  max-width: 100%;
+  width: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+.cardProduct > p {
+  padding: 0.3rem;
+  font-size: 12px;
+}
+
+.cardProduct {
+  margin: 1rem;
+  text-align: left;
+  width: 20%;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+.cardName {
+  font-size: 14px !important;
+}
+
+.cardFocus {
+  font: normal normal bold 16px Helvetica !important;
+}
+
+.btnCard {
+  background: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  color: #888888;
+  padding: 0.3rem;
+  width: 90%;
+  white-space: nowrap;
+  margin-top: 1rem;
+}
+
+.btnCard:hover {
+  background-color: #888888;
+  color: #ffffff;
+  transition: 1s;
+}

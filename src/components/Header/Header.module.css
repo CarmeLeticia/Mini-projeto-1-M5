@@ -1,0 +1,56 @@
+header {
+  background-color: #707070;
+  height: 18em;
+}
+
+.headerFlex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.btnNav {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.btn:hover {
+  background-color: #4b4747;
+  color: #ffffff;
+}
+
+.btn {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px #00000029;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  color: #888888;
+  font: normal 14px Helvetica;
+  white-space: nowrap;
+  width: 160px;
+  height: 40px;
+  opacity: 1;
+}
+
+header p {
+  color: #ffffff;
+}
+
+.headerTitle {
+  margin-top: 2.3rem;
+  font: normal 22px Helvetica;
+}
+
+.headerFocus {
+  font: normal bold 40px Helvetica;
+}
+
+.header_p {
+  font: normal 16px Helvetica;
+  padding: 2rem;
+}

@@ -1,0 +1,37 @@
+.formContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  gap: 15px;
+}
+
+.styleInput {
+  width: 78%;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  font-size: 16px;
+  color: #707070;
+}
+
+.styleCheckbox {
+  display: flex;
+  gap: 15px;
+}
+
+.btnForm {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070 !important;
+  border-radius: 4px;
+  color: #888888;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0.8em;
+  width: 78%;
+}
+
+.btnForm:hover {
+  background-color: #707070;
+  color: #ffffff;
+  transition: 1s;
+}

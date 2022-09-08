@@ -1,0 +1,46 @@
+.boxNew {
+  text-align: center;
+  margin: 3rem;
+  min-height: 30vh;
+}
+
+.boxForm {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  gap: 15px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input {
+  width: 300px;
+  padding: 0.5em;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  margin-top: 1rem;
+  border-radius: 2px;
+}
+
+.btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  padding: 10px 25px 10px 25px;
+  cursor: pointer;
+  font: normal 14px Helvetica;
+  opacity: 1;
+}
+
+.btn:hover {
+  background-color: #707070;
+  color: #ffffff;
+  transition: 1s;
+}
